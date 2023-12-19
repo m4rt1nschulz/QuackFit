@@ -2,7 +2,7 @@
 QuackFit es un programa para realizar análisis de poses en actividades deportivas a partir de imágenes o para detección en tiempo real.
 
 # Principales librerías
-Se usó YOLOv8 de Ultralytics con su modelo "yolov8n-pose.pt" para realizar la detección de poses y redes neuronales convolucionales de MobileNet en la librería timm (Pytorch Image Models) para el entrenamiento, partiendo del modelo "timm/mobilenetv3_large_100.ra_in1k". También se usaron otras librerías básicas para el manejo de imágenes y datos, estas fueron PIL, numpy, os y shutil.
+Se usó YOLOv8 de Ultralytics con su modelo "yolov8n-pose.pt" para realizar la detección de poses y redes neuronales convolucionales de ResNet en la librería timm (Pytorch Image Models) para el entrenamiento, partiendo del modelo "timm/resnet50.a1_in1k". También se usaron otras librerías básicas para el manejo de imágenes y datos, estas fueron PIL, numpy, os y shutil.
 
 # Requerimientos 
 Para entrenar el modelo con otra base de datos y para su correcto uso en el análisis de pose, se requiere el uso de una GPU, la cuál puede venir de Google Colab o si se quiere correr localmente, de un dispositivo que tenga unidad de procesamiento gráfico disponible. 
